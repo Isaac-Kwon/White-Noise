@@ -1,0 +1,13 @@
+frange = 20:0.1:20000;
+
+pwidth = 10;
+avg = 3000;
+
+selecti = 400;
+select = floor(abs(randn(selecti,1)*size(frange,2)));
+
+hist(select,30)
+
+mean(select)
+std(select)
+noisegen(select,1,44100);
