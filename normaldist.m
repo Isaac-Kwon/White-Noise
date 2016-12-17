@@ -1,7 +1,7 @@
 frange = 20:0.1:20000;
 
-pwidth = 120;
-avg = 440;
+pwidth = 440;
+avg = 880;
 
 selecti = 1400;
 select = (((randn(selecti,1)*pwidth)+avg) );
